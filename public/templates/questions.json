@@ -1,0 +1,35 @@
+[
+  {
+    "id": "LOCAL-EXAMPLE",
+    "subject": "산업재해 예방 및 안전보건교육",
+    "topic": "재해지표",
+    "question": "총 근로시간이 1000000시간이고 재해 건수가 1건이다. 100만 근로시간당 재해 건수로 정의한 도수율은?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 1,
+    "explanation": "조건: a=1, b=1000000. 도수율 = 재해 건수 × 1,000,000 / 총 근로시간 계산 결과는 1 이다. 명시된 이상화 조건에 한정한 자체 제작 계산 변형이다.",
+    "difficulty": "하",
+    "year": null,
+    "session": null,
+    "type": "original",
+    "sourceUrl": "https://github.com/YunSangYeong/Engineer-Construction-Safety-CBT/blob/main/scripts/generate-bank.py",
+    "verificationStatus": "pending",
+    "reviewNote": "AI 일반 지식의 기초 공식으로 자체 작성. 20개 템플릿의 조건·단위·해설을 내부 검토하고 별도 역산 테스트로 수치·정답·보기를 검증. 외부 자료 대조·전문가 검수·공식 출제기준 대조는 미완료. URL은 작성 위치이며 외부 정답 증빙이 아님.",
+    "version": "main",
+    "rights": "자체 제작 원고: CC BY 4.0, Engineer-Construction-Safety-CBT contributors. 외부 기출을 복제하지 않음.",
+    "family": "frequency",
+    "calculation": {
+      "kind": "frequency",
+      "values": [
+        1,
+        1000000
+      ],
+      "result": 1,
+      "unit": ""
+    }
+  }
+]
